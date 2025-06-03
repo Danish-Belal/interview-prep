@@ -1,6 +1,7 @@
 const express = require('express');
 const app = new express();
-require('./schedular1');
+// require('./schedular1');
+require('./schedular2');
 app.use(express.json());
 
 app.listen(5000,()=>{
