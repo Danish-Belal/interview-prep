@@ -13,8 +13,8 @@ RUN npm install
 
 RUN npm install -g nodemon
 
-
-COPY . .
+#copying later so that we dont have to intall eveything agani and again and packages will be catched.
+COPY . .  
 
 
 EXPOSE 5000
